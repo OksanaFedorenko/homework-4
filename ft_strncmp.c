@@ -3,16 +3,16 @@
 
 int ft_strncmp(const char *str1, const char *str2, size_t n) {
 
-    size_t i = 0;
+   size_t i = 0;
    while (*str1 == *str2 && i <= n) {
-       //printf("%c %c\n", *str1, *str2);
+
       if (*str1 == '\0' || *str2 == '\0')
          break;
          
       str1++;
       str2++;
       i++;
-      printf("%c %c\n", *str1, *str2);
+      
    }
 
    if (*str1 == '\0' && *str2 == '\0')

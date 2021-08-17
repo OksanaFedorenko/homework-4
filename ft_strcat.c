@@ -8,11 +8,11 @@
 
 char *ft_strcat(char *str1, const char *str2)
 {
-    char* begin = str1;
+    char *begin = str1;
     while (*str1)
         str1++;
  
-    while(*str1++ = *str2++);
+    while (*str1++ = *str2++);
  
     *str1 = '\0';
     return begin;
