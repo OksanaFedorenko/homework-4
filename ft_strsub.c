@@ -20,7 +20,7 @@ char *ft_strsub(char const *s, unsigned int start, size_t len) {
 }
 
 
-int main() {
+/*int main() {
 
    char *str = "lorem ipsum dolor";
    char *res = ft_strsub(str, 5, 50);
@@ -31,4 +31,4 @@ int main() {
     printf("%s\n", res);
 
   return 0;
-}
+}*/
