@@ -1,5 +1,3 @@
-#include "ft_lib.h"
-#include <stdio.h>
 #include "ft_memalloc.c"
 #include "ft_strlen.c"
 
