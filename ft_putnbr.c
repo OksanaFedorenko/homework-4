@@ -1,8 +1,9 @@
-#include <stdlib.h>
+/*#include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
 //#include "ft_putchar.c"
-#include "ft_putstr.c"
+#include "ft_putstr.c"*/
+#include "mylib.h"
 
 
 void	ft_putnbr(int n)
@@ -22,9 +23,9 @@ void	ft_putnbr(int n)
 	}
 }
 
-int main() {
+/*int main() {
 
     ft_putnbr(545152);
 
     return 0;
-}
+}*/

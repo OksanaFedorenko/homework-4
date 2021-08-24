@@ -1,5 +1,6 @@
-#include <string.h>
-#include <stdio.h>
+#include "mylib.h"
+/*#include <string.h>
+#include <stdio.h>*/
 
 void ft_bzero(void *s, size_t n)
 {

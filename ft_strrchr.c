@@ -1,6 +1,7 @@
-#include <string.h>
+/*#include <string.h>
 #include <stdio.h>
-#include "ft_strlen.c"
+#include "ft_strlen.c"*/
+#include "mylib.h"
 
 char *ft_strrchr(char *str, int c)
 {
@@ -14,7 +15,7 @@ char *ft_strrchr(char *str, int c)
     return NULL;
 }
 
-int main()
+/*int main()
 {
    char *str = "Hello world";
 
@@ -35,4 +36,4 @@ int main()
 
     return 0;
 
-}
+}*/

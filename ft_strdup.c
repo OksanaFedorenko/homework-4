@@ -1,9 +1,9 @@
-#include <string.h>
+/*#include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include "./helpers/constants.c"
 #include "ft_strlen.c"
-#include "./helpers/compare_strings.c"
+#include "./helpers/compare_strings.c"*/
 
 char *ft_strdup(const char *str)
 {

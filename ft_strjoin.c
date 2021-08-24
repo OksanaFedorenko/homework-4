@@ -1,5 +1,6 @@
-#include "ft_memalloc.c"
-#include "ft_strlen.c"
+/*#include "ft_memalloc.c"
+#include "ft_strlen.c"*/
+#include "mylib.h"
 
 char *ft_strjoin(char const *s1, char const *s2) {
     char *str;
@@ -28,7 +29,7 @@ char *ft_strjoin(char const *s1, char const *s2) {
 }
 
 
-int main() {
+/*int main() {
 
     char *str1 = "Hello";
     char *str2 = "world";
@@ -38,4 +39,4 @@ int main() {
     printf("%s\n", res);
 
     return 0;
-}
+}*/

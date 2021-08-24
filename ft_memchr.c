@@ -1,7 +1,8 @@
-#include <string.h>
+/*#include <string.h>
 #include <stdio.h>
 //#include "ft_strlen.c"
-#include "helpers/compare_strings.c"
+#include "helpers/compare_strings.c"*/
+#include "mylib.h"
 
 void *ft_memchr(void *str, int c, size_t n)
 {
@@ -15,7 +16,7 @@ void *ft_memchr(void *str, int c, size_t n)
     return NULL;
 }
 
-int main()
+/*int main()
 {
     unsigned char src2[55]="1234567890";
     unsigned char src3[55]="1234567890";
@@ -38,4 +39,4 @@ int main()
        compare_strings(res1, res2);
 
     return 0;
-}
+}*/

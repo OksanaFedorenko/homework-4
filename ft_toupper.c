@@ -1,5 +1,6 @@
-#include <ctype.h>
-#include <stdio.h>
+/*#include <ctype.h>
+#include <stdio.h>*/
+#include "mylib.h"
 
 int ft_toupper(int symbol)
 {

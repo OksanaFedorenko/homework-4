@@ -1,10 +1,11 @@
-#include <string.h>
+/*#include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include "ft_strlen.c"
 #include "ft_strcmp.c"
 #include "./helpers/constants.c"
-#include "./helpers/compare_strings.c"
+#include "./helpers/compare_strings.c"*/
+#include "mylib.h"
 
 char *ft_strcat(char *str1, const char *str2)
 {

@@ -1,5 +1,6 @@
-#include <string.h>
-#include <stdio.h>
+/*#include <string.h>
+#include <stdio.h>*/
+#include "mylib.h"
 
 int ft_strcmp(const char *str1, const char *str2) {
    while (*str1 == *str2) {

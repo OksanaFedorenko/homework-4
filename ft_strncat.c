@@ -1,10 +1,11 @@
-#include <string.h>
+/*#include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include "ft_strlen.c"
 //#include "ft_strcmp.c"
 #include "./helpers/constants.c"
-#include "./helpers/compare_strings.c"
+#include "./helpers/compare_strings.c"*/
+#include "mylib.h"
 
 char *ft_strncat(char *dest, const char *src, size_t n)
 {
@@ -18,7 +19,7 @@ char *ft_strncat(char *dest, const char *src, size_t n)
     return dest;
 }
 
-int main() 
+/*int main() 
 {
     char dest1[20] = "000";
     char dest2[20] = "000";
@@ -37,4 +38,4 @@ int main()
     //compare custom function and library function
     compare_strings(dest1, dest2);
     compare_strings(dest3, dest4);
-}
+}*/

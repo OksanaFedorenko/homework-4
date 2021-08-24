@@ -1,7 +1,7 @@
-#include "ft_lib.h"
+/*#include "mylib.h"
 #include <stdio.h>
-#include "helpers/symbol_to_upper.c"
-
+#include "helpers/symbol_to_upper.c"*/
+#include "mylib.h"
 
 void ft_striter(char *s, void (*f)(char *)) {
    if (s && f) {
@@ -13,7 +13,7 @@ void ft_striter(char *s, void (*f)(char *)) {
    }
 }
 
-int main() {
+/*int main() {
 
     char res[50] = "lorem ipsum dolor sit amet";
     ft_striter(res, symbol_to_upper);
@@ -21,4 +21,4 @@ int main() {
     printf("%s\n", res);
 
   return 0;
-}
+}*/

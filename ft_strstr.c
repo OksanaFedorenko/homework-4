@@ -1,6 +1,7 @@
-#include <string.h>
+/*#include <string.h>
 #include <stdio.h>
-#include "ft_strlen.c"
+#include "ft_strlen.c"*/
+#include "mylib.h"
 
 // char *strstr(const char *haystack, const char *needle);
 
@@ -28,30 +29,7 @@ const char *ft_strstr(const char *s2, const char *s1)
 
   if (flag) return (s2+i);
   else return NULL;
-   /*int len = ft_strlen(haystack);
-   int len2 = ft_strlen(needle);
-   int i;
-   int j;
-   for (i = 0; i <= len - len2; i++) {
-
-      if (*haystack == *needle) {
-      
-        for (j = 0; j <= len2; j++) {
-           if (*haystack == *needle) {
-              printf("%c %c\n", *haystack, *needle);
-              haystack++;
-              needle++;
-              printf("j is %d\n", j);
-           } else break;
-        }
-      } else {
-        printf("i is %d\n", i);
-        haystack++;
-      }
-         
-   }
-
-   return NULL;*/
+   
 }
 
 int main()

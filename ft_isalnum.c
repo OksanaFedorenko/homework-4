@@ -1,6 +1,7 @@
-#include <ctype.h>
+#include "mylib.h"
+/*#include <ctype.h>
 #include <stdio.h>
-#include "./helpers/compare.c"
+#include "./helpers/compare.c"*/
 
 int ft_isalnum(int symbol)
 {
@@ -16,7 +17,7 @@ int ft_isalnum(int symbol)
   }
 }
 
-int main()
+/*int main()
 {
    char symbol1 = ' ';
    char symbol2 = 'M';
@@ -30,4 +31,4 @@ int main()
    compare(res1, res2, 3);
    compare(res3, res4, 3);
 
-}
+}*/

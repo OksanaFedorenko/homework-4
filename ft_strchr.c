@@ -1,6 +1,7 @@
-#include <string.h>
+/*#include <string.h>
 #include <stdio.h>
-#include "ft_strlen.c"
+#include "ft_strlen.c"*/
+#include "mylib.h"
 
 char *ft_strchr(char *str, int symbol)
 {

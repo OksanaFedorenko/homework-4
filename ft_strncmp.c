@@ -1,5 +1,6 @@
-#include <string.h>
-#include <stdio.h>
+/*#include <string.h>
+#include <stdio.h>*/
+#include "mylib.h"
 
 int ft_strncmp(const char *str1, const char *str2, size_t n) {
 
@@ -23,7 +24,7 @@ int ft_strncmp(const char *str1, const char *str2, size_t n) {
 }
 
 
-int main() 
+/*int main() 
 {
     char *str1 = "Hello world!";
     char *str2 = "Hello world!";
@@ -47,10 +48,10 @@ int main()
        printf("The strings are different.\n");
     return 0;*/
 
-    if (res3 == 0)
+   /* if (res3 == 0)
        printf("The strings are same.\n");
     else
        printf("The strings are different.\n");
     return 0;
 
-}
+}*/

@@ -1,5 +1,5 @@
-#include "ft_lib.h"
-#include "ft_strlen.c"
+#include "mylib.h"
+//#include "ft_strlen.c"
 
 void ft_strclr(char *s) {
 

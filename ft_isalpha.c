@@ -1,6 +1,7 @@
-#include <ctype.h>
+/*#include <ctype.h>
 #include <stdio.h>
-#include "./helpers/compare.c"
+#include "./helpers/compare.c"*/
+#include "mylib.h"
 
 int ft_isalpha(int symbol)
 {

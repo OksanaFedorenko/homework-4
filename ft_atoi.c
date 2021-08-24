@@ -1,5 +1,6 @@
-#include <stdlib.h>
-#include <stdio.h>
+#include "mylib.h"
+/*#include <stdlib.h>
+#include <stdio.h>*/
 
 int ft_atoi(const char *s) {
 
@@ -12,7 +13,7 @@ int ft_atoi(const char *s) {
     return n;
 }
 
-int main() {
+/*int main() {
 
     char *str = "hfd6fdd5cv00cv6";
 
@@ -20,4 +21,4 @@ int main() {
     int res2 = ft_atoi(str);
 
     printf("%d %d\n", res, res2);   
-}
+}*/

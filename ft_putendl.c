@@ -1,8 +1,8 @@
-#include <stdlib.h>
+/*#include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
 //#include "ft_putchar.c"
-#include "ft_putstr.c"
+#include "ft_putstr.c"*/
 
 void ft_putendl(char const *s)
 {
@@ -13,9 +13,9 @@ void ft_putendl(char const *s)
 	}
 }
 
-int main() {
+/*int main() {
 
     ft_putendl("abcde");
 
     return 0;
-}
+}*/

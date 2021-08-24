@@ -1,7 +1,7 @@
-#include "ft_lib.h"
-#include <stdio.h>
+#include "mylib.h"
+/*#include <stdio.h>
 #include "ft_strlen.c"
-#include "ft_memalloc.c"
+#include "ft_memalloc.c"*/
 
 int get_start(char const *s) {
 
@@ -48,7 +48,7 @@ char *ft_strtrim(char const *s) {
 }
 
 
-int main() {
+/*int main() {
     
     char *str = "  hello world  *45hr dfhfj  *    ";
 
@@ -61,4 +61,4 @@ int main() {
         printf("%zu\n", ft_strlen(res));
 
     return 0;
-}
+}*/

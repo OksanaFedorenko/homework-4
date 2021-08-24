@@ -1,6 +1,6 @@
-#include "ft_lib.h"
-#include <stdio.h>
-#include "ft_memalloc.c"
+#include "mylib.h"
+/*#include <stdio.h>
+#include "ft_memalloc.c"*/
 
 char *ft_strsub(char const *s, unsigned int start, size_t len) {
     

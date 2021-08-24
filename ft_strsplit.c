@@ -1,7 +1,7 @@
-#include "ft_lib.h"
-#include <stdio.h>
+#include "mylib.h"
+/*#include <stdio.h>
 #include "ft_strlen.c"
-#include "ft_memalloc.c"
+#include "ft_memalloc.c"*/
 
 int count_words(char *s, char c) {
     int count = 0;
@@ -43,21 +43,20 @@ int count_words(char *s, char c) {
 
 char **ft_strsplit(char const *s, char c) {
 
-    char *res = 
 
 }
 
-int main() {
+/*int main() {
     char arr[5][20] = {"hello", "fellow", "students"};
 
-    /*size_t i;
+    size_t i;
     for (i = 0; i < 3; i++) {
         printf("%c ", arr[i][0]);
-    }*/
+    }
 
     char *str = "*hello*fellow***students*";
 
     count_words(str, '*');
     //printf("%d\n", res);
  
-}
+}*/

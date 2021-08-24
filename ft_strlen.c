@@ -1,5 +1,6 @@
-#include <string.h>
-#include <stdio.h>
+/*#include <string.h>
+#include <stdio.h>*/
+#include "mylib.h"
 
 size_t ft_strlen(const char *str)
 {

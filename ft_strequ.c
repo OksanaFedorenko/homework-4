@@ -1,5 +1,5 @@
-#include "ft_lib.h"
-#include <stdio.h>
+#include "mylib.h"
+//#include <stdio.h>
 
 int ft_strequ(char const *s1, char const *s2) {
     if (s1 && s2) {
@@ -20,7 +20,7 @@ int ft_strequ(char const *s1, char const *s2) {
 }
 
 
-int main() {
+/*int main() {
     char *str1 = "hello world";
     char *str2 = "hello world";
 
@@ -31,4 +31,4 @@ int main() {
     printf("%d\n", res);
     printf("%d\n", res2);
     printf("%d\n", res3);
-}
+}*/

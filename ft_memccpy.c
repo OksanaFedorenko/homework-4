@@ -1,6 +1,7 @@
-#include <string.h>
+/*#include <string.h>
 #include <stdio.h>
-#include "helpers/compare_strings.c"
+#include "helpers/compare_strings.c"*/
+#include "mylib.h"
 
 void *ft_memccpy(void *dest, const void *source, int c, size_t n)
 {
@@ -18,7 +19,7 @@ void *ft_memccpy(void *dest, const void *source, int c, size_t n)
     *d = '\0';
 }
 
-int main()
+/*int main()
 {
     unsigned char src2[55]="12345678901234567890111111111111";
     unsigned char src3[55]="12345678901234567890222222222222";
@@ -36,4 +37,4 @@ int main()
     compare_strings(dest2, dest3);
 
     return 0;
-}
+}*/

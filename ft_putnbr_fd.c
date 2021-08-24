@@ -1,8 +1,9 @@
-#include <stdlib.h>
+/*#include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
 #include "ft_putchar_fd.c"
-#include "ft_putstr_fd.c"
+#include "ft_putstr_fd.c"*/
+#include "mylib.h"
 
 void	ft_putnbr_fd(int n, int fd)
 {

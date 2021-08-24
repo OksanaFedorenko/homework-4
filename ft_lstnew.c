@@ -1,4 +1,4 @@
-#include "ft_lib.h"
+#include "mylib.h"
 
 t_list *ft_lstnew(void const *content, size_t content_size)
 {
@@ -23,16 +23,9 @@ t_list *ft_lstnew(void const *content, size_t content_size)
 	return (NULL);
 }
 
-int main() {
-    
-    /*struct Car {
-        int speed;
-        char name[50];
-        float weight;
-    };*/
-
-    t_list car;
+/*int main() {
+ 
     t_list res = ft_lstnew(_list, sizeof(t_list));
 
     return 0;
-}
+}*/

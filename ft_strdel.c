@@ -1,4 +1,4 @@
-#include "ft_lib.h"
+#include "mylib.h"
 
 void ft_strdel(char **as) {
     if (as != NULL && *as != NULL) {

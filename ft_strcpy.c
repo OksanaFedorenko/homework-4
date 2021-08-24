@@ -1,11 +1,11 @@
-#include <string.h>
+/*#include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include "./helpers/constants.c"
 #include "ft_strcmp.c"
 #include "ft_strlen.c"
 #include "./helpers/make_buffer.c"
-#include "./helpers/compare_strings.c"
+#include "./helpers/compare_strings.c"*/
 
 char *ft_strcpy(char *dest, const char *source)
 {

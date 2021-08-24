@@ -1,7 +1,7 @@
-#include "ft_lib.h"
-#include <string.h>
+#include "mylib.h"
+/*#include <string.h>
 #include <stdio.h>
-#include "helpers/string_to_camel_case.c"
+#include "helpers/string_to_camel_case.c"*/
 
 
 void ft_striteri(char *s, void (*f)(unsigned int, char *)) {
@@ -14,7 +14,7 @@ void ft_striteri(char *s, void (*f)(unsigned int, char *)) {
    }
 }
 
-int main() {
+/*int main() {
 
     char res[50] = "lorem ipsum dolor sit amet";
     ft_striteri(res, string_to_camel_case);
@@ -22,4 +22,4 @@ int main() {
     printf("%s\n", res);
 
   return 0;
-}
+}*/

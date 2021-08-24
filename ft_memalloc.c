@@ -1,7 +1,8 @@
-#include <ctype.h>
+/*#include <ctype.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include "ft_memset.c"
+#include "ft_memset.c"*/
+#include "mylib.h"
 
 void *ft_memalloc(size_t size)
 {

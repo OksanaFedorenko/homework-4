@@ -1,7 +1,8 @@
-#include <stdlib.h>
+/*#include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
-#include "ft_memalloc.c"
+#include "ft_memalloc.c"*/
+#include "mylib.h"
 
 void reverseArray(char arr[], int length)
 {
@@ -18,7 +19,7 @@ void reverseArray(char arr[], int length)
 }    
  
 
-char* ft_itoa(int n)
+char *ft_itoa(int n)
 {
 
     int i = 0;
@@ -55,11 +56,11 @@ char* ft_itoa(int n)
     return str;
 }
 
-int main() {
+/*int main() {
 
     char *res = ft_itoa(0);
 
     printf("%s\n", res);
 
     return 0;
-}
+}*/

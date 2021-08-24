@@ -1,6 +1,7 @@
-#include <string.h>
+/*#include <string.h>
 #include <stdio.h>
-//#include "helpers/compare_strings.c"
+//#include "helpers/compare_strings.c"*/
+#include "mylib.h"
 
 void *ft_memset (void *dest, int val, size_t n)
 {

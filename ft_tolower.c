@@ -1,13 +1,14 @@
-#include <ctype.h>
-#include <stdio.h>
+/*#include <ctype.h>
+#include <stdio.h>*/
+#include "mylib.h"
 
 //res1 - custom function, res2 - standart function
-void compare(int res1, int res2)
+/*void compare(int res1, int res2)
 {
     if (res1 == res2) {
         printf("OK\n");
     }
-}
+}*/
 
 int ft_tolower(int symbol)
 {

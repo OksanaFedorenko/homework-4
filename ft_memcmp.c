@@ -1,7 +1,8 @@
-#include <string.h>
+/*#include <string.h>
 #include <stdio.h>
 #include "ft_strcmp.c"
-#include "helpers/compare_strings.c"
+#include "helpers/compare_strings.c"*/
+#include "mylib.h"
 
 int ft_memcmp(const void *src1, const void *src2, size_t n)
 {
@@ -24,7 +25,7 @@ int ft_memcmp(const void *src1, const void *src2, size_t n)
   
 };  
 
-int main()
+/*int main()
 {   
     //ft_memcmp tests
     unsigned char src1[55]="1234d6789123456789s0";
@@ -42,4 +43,4 @@ int main()
        printf("Error! The result of your function is different! Check your code!");
 
     return 0;
-}
+}*/

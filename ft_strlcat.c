@@ -1,8 +1,9 @@
-#include <string.h>
+/*#include <string.h>
 #include <stdio.h>
 //#include "ft_strlen.c"
-//#include "helpers/compare_strings.c"
+//#include "helpers/compare_strings.c"*/
 #include <bsd/string.h>
+#include "mylib.h"
 
 //size_t strlcat ( char * dst , const char * src , size_t size );
 
@@ -26,7 +27,7 @@ size_t  ft_strlcat(char *dst, const char *src, size_t size)
     return (slen + len);
 }
 
-int main() 
+/*int main() 
 {
     char dest1[20] = "000";
     char dest2[20] = "000";
@@ -50,4 +51,4 @@ int main()
     //compare custom function and library function
     //compare_strings(dest1, dest2);
     //compare_strings(dest3, dest4);
-}
+}*/

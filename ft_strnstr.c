@@ -1,6 +1,7 @@
-#include <bsd/string.h>
+/*#include <bsd/string.h>
 #include <stdlib.h>
-#include <stdio.h>
+#include <stdio.h>*/
+#include "mylib.h"
 
 char    *ft_strnstr(const char *haystack, const char *needle, size_t len)
 {
@@ -25,7 +26,7 @@ char    *ft_strnstr(const char *haystack, const char *needle, size_t len)
     return (0);
 }
 
-int main()
+/*int main()
 {
 
     char    *s1 = "MZIRIBMZIRIBMZE123";
@@ -38,7 +39,7 @@ int main()
 
     printf("strnstr: %s\nft_strnstr: %s\n", i1,i2);
     return 0;
-}
+}*/
 
 /*#include <string.h>
 #include <stdio.h>

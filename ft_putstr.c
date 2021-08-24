@@ -1,7 +1,8 @@
-#include <stdlib.h>
+/*#include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
-#include "ft_putchar.c"
+#include "ft_putchar.c"*/
+#include "mylib.h"
 
 void ft_putstr(char const *s)
 {

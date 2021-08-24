@@ -1,9 +1,10 @@
-#include <string.h>
+/*#include <string.h>
 #include <stdio.h>
 #include "helpers/constants.c"
 #include "ft_strlen.c"
 #include "helpers/make_buffer.c"
-#include "helpers/compare_strings.c"
+#include "helpers/compare_strings.c"*/
+#include "mylib.h"
 
 char *ft_strncpy(char *dest, const char *src, size_t n)
 {
@@ -18,7 +19,7 @@ char *ft_strncpy(char *dest, const char *src, size_t n)
  }
 
 
-int main() 
+/*int main() 
 {
   char *buffer1 = make_buffer((ft_strlen(short_string) + 1));
     char *buffer2 = make_buffer((ft_strlen(short_string) + 1));
@@ -49,4 +50,4 @@ int main()
     free(buffer6);
 
     return 0;
-}
+}*/
